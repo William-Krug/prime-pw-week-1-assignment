@@ -1,11 +1,40 @@
 /* Give your page a fun background color */
+.body {
+   background-color: #FFC1CC;
+   padding-left: 40px;
+   overflow: hidden; /* found in https://stackoverflow.com/questions/5803023/how-to-place-two-divs-next-to-each-other */
+}
 
 /* Make the header and footer a different color from the background */
+.header-footer {
+   background-color: #67BFFF;
+   overflow: hidden;  /* found in https://stackoverflow.com/questions/5803023/how-to-place-two-divs-next-to-each-other */
+}
 
 /* Align the h1 containing your name in the center of the header*/
+.header {
+   text-align: center;
+   font-size: 36px;
+}
 
 /* Make your p tag a different color and italic */
+.quote {
+   color: #4B373A;
+   font-style: italic;
+   padding-left: 10px;
+}
 
 /* Put a border around your image */
+.Batman {
+   border: 5px;
+   border-style: solid;
+   border-color: #67FF89;
+   width: 300px;
+   height: auto;
+}
 
 /* Change the font-family of your list */
+.fun-facts {
+   font-family: Trebuchet MS, Sans-serif;
+   font-size: 24px;
+}
